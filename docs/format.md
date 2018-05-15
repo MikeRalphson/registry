@@ -8,7 +8,7 @@ permalink: /registries/format/index.html
 
 ## Master Issue
 
-* [#1531](https://github.com/OAI/OpenAPI-Specification/pull/1531)
+* [#845](https://github.com/OAI/OpenAPI-Specification/issues/845)
 
 ## Contributing
 

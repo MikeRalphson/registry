@@ -5,6 +5,10 @@ permalink: /registries/draft-feature/index.html
 
 # Draft Features Registry
 
+## Master Issue
+
+* [#1531](https://github.com/OAI/OpenAPI-Specification/pull/1531)
+
 ## Contributing
 
 Please raise a [Pull-Request]() or [issue]() to contribute or discuss a registry value.
