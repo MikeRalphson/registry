@@ -20,6 +20,6 @@ collections:
     name: Draft Features Registry
     output: true
   alternative-schema-type:
-    slug: alternative-schema-type
+    slug: alternative-schema
     name: Alternative Schema Type Registry
     output: true

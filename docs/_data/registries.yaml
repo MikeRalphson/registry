@@ -7,5 +7,5 @@
   name: Specification Extension Registry
 - slug: draft-feature
   name: Draft Features Registry
-- slug: alternative-schema-type
+- slug: alternative-schema
   name: Alternative Schema Type Registry

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: OpenAPI Initiative Registry
-permalink: /extension/index.html
+permalink: /registries/extension/index.html
 ---
 
 # OpenAPI Initiative Extensions Registry
