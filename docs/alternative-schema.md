@@ -13,6 +13,6 @@ Please raise a [Pull-Request]() or [issue]() to contribute or discuss a registry
 
 |Value|Description|Issue|
 |---|---|---|
-{% for value in site.alternative-schema %}| <a href="/registries/alternative-schema/{{ value.slug }}.html">{{ value.slug }}</a> | {{ value.description }} | {{ value.issue }} |
+{% for value in site.alternative-schema %}| <a href="/registry/registries/alternative-schema/{{ value.slug }}.html">{{ value.slug }}</a> | {{ value.description }} | {{ value.issue }} |
 {% endfor %}
 
