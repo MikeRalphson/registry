@@ -11,7 +11,7 @@ Please raise a [Pull-Request]() or [issue]() to contribute or discuss a registry
 
 ### Contents
 
-{% for registry in site.data.registries %}{% unless registry.hidden %}* <a href="/{{ registry.slug }}values.html">{{ registry.name }}</a>{% endunless %}
+{% for registry in site.data.registries %}{% unless registry.hidden %}* <a href="/{{ registry.slug }}/index.html">{{ registry.name }}</a>{% endunless %}
 {% endfor %}
 
 #### API access
