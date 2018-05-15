@@ -4,6 +4,10 @@
 @import "{{ site.theme }}";
 
 h1,h2,h3 { color: #629b34; }
+
 a[href] { color: #45512c; }
-/*body:not(.toc-inline) #toc h2 { color: #45512c; }*/
+
+footer { display: none; }
+
+.buttons { background: #629b34; }
 
