@@ -1,15 +1,3 @@
-# template
-
-#- slug:
-#  registry:
-#  name:
-#  owner:
-#  issue:
-#  description:
-#  deprecated:
-#  schema:
-#  objects:
-
 # object registry (objects)
 
 - slug: openapiObject
@@ -47,18 +35,6 @@
   owner: mike_ralphson
   issue: 1400
   description: signed 8-bit integer
-
-# extensions registry (extensions)
-
-- slug: x-twitter
-  registry: extension
-  name: x-twitter
-  owner: mike_ralphson
-  issue:
-  description:
-  schema:
-    type: string
-  objects: [ "contactObject" ]
 
 # draft features registry (draft-features)
 
