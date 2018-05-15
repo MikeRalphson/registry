@@ -3,7 +3,7 @@ slug: uint8
 name: uint8
 title: uint8
 owner: mike_ralphson
-issue: 1400
+issue: 845
 description: unsigned 8-bit integer
 
 layout: default

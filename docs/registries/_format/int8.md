@@ -3,7 +3,7 @@ slug: int8
 name: int8
 title: int8
 owner: mike_ralphson
-issue: 1400
+issue: 845
 description: signed 8-bit integer
 
 layout: default
