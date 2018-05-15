@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-dinky
 collections_dir: registry
 collections:
   object:
