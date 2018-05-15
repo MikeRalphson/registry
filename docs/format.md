@@ -1,0 +1,21 @@
+---
+layout: default
+theme: jekyll-theme-cayman
+show_downloads: false
+title: OpenAPI Initiative Registry
+permalink: /format/index.html
+---
+
+# OpenAPI Initiative Formats Registry
+
+## Contributing
+
+Please raise a [Pull-Request]() or [issue]() to contribute or discuss a registry value.
+
+## Values
+
+|Value|Description|Issue|
+|---|---|---|
+{% for value in site.format %}| {{ value.slug }} | {{ value.description }} | {{ value.issue }} |
+{% endfor %}
+

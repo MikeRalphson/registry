@@ -1,1 +1,22 @@
 theme: jekyll-theme-cayman
+collections_dir: registry
+collections:
+  object:
+    slug: object
+    name: Object Registry
+  format:
+    slug: format
+    name: Format Registry
+    output: true
+  extension:
+    slug: extension
+    name: Specification Extension Registry
+    output: true
+  draft-feature:
+    slug: draft-feature
+    name: Draft Features Registry
+    output: true
+  alternative-schema-type:
+    slug: alternative-schema-type
+    name: Alternative Schema Type Registry
+    output: true
