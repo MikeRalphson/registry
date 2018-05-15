@@ -1,7 +1,6 @@
 ---
 layout: default
-theme: jekyll-theme-dinky
-show_downloads: false
+#show_downloads: false
 title: OpenAPI Initiative Registry
 permalink: /format/index.html
 ---
