@@ -1,7 +1,7 @@
 # template
 
 #- slug:
-#  category:
+#  registry:
 #  name:
 #  owner:
 #  issue:
@@ -13,7 +13,7 @@
 # object registry (objects)
 
 - slug: openapiObject
-  category: objects
+  registry: object
   name: openapi object
   owner: webron
   issue: 1
@@ -22,7 +22,7 @@
   objects:
 
 - slug: infoObject
-  category: objects
+  registry: object
   name: info object
   owner: webron
   issue: 1
@@ -31,7 +31,7 @@
   objects: [ "openapiObject" ]
 
 - slug: contactObject
-  category: objects
+  registry: object
   name: contact object
   owner: webron
   issue: 1
@@ -42,7 +42,7 @@
 # formats registry (formats)
 
 - slug: int8
-  category: formats
+  registry: format
   name: int8
   owner: mike_ralphson
   issue: 1400
@@ -51,7 +51,7 @@
 # extensions registry (extensions)
 
 - slug: x-twitter
-  category: extensions
+  registry: extension
   name: x-twitter
   owner: mike_ralphson
   issue:
@@ -62,8 +62,8 @@
 
 # draft features registry (draft-features)
 
-- slug: x-oas-draft-feature-alternativeSchemas
-  category: draft-features
+- slug: x-oas-draft-alternativeSchemas
+  registry: draft-feature
   name: Alternative Schemas
   owner: darrel_miller
   issue: 1531
@@ -72,3 +72,11 @@
   objects: [ "schemaObject" ]
 
 # alternative schema type registry (alternative-schema-type)
+
+- slug: json-schema
+  registry: alternative-schema-type
+  name: JSON Schema
+  owner: darrel_miller
+  issue: 1534
+  description: JSON Schema
+  objects: [ "x-oas-draft-alternativeSchema" ]

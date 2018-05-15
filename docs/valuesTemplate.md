@@ -5,9 +5,9 @@ show_downloads: false
 title: OpenAPI Initiative Registry
 ---
 
-{% var slug = "" %}
+{% assign slug = "" %}
 
-{% var registry %}
+{% assign registry = false %}
 {% for reg in site.data.registries %}{% if reg.slug == slug %}{% registry = reg %}{% endif %}
 {% endfor %}
 
