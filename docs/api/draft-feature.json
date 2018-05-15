@@ -1,4 +1,4 @@
 ---
 ---
-{{ site.draft-features | jsonify }}
+{{ site.draft-feature | jsonify }}
 
