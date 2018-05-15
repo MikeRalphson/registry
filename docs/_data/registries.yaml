@@ -1,0 +1,11 @@
+- slug: objects
+  name: Object Registry
+  hidden: true
+- slug: formats
+  name: Format Registry
+- slug: extensions
+  name: Specification Extension Registry
+- slug: draft-features
+  name: Draft Features Registry
+- slug: alternative-schema-types
+  name: Alternative Schema Registry

@@ -1,0 +1,22 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
+    {% for value in site.data.values %}
+      <item>
+        <title>{{ value.name | xml_escape }}</title>
+        <description>{{ value.description | xml_escape }}</description>
+        <category>{% if value.v3 %}OAS3{% else %}OAS2{% endif %}/{{ value.category }}</category>
+        <pubDate>{% if value.date %}{{ value.date | date: "%a, %d %b %Y %H:%M:%S %z" }}{% else %}{{ 'now' | date: "%a, %d %b %Y %H:%M:%S %z" }}{% endif %}</pubDate>
+        <link>{% if value.link %}{{ value.link }}{% else %}{{ value.github }}{% endif %}</link>
+        <guid isPermaLink="true">{% if value.link %}{{ value.link }}{% else %}{{ value.github }}{% endif %}</guid>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>
