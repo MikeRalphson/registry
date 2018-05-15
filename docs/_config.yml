@@ -2,7 +2,7 @@ theme: jekyll-theme-dinky
 title: OpenAPI Initiative Registry
 description: Extensible data value repository
 show_downloads: true
-collections_dir: registry
+collections_dir: /registries
 collections:
   object:
     slug: object

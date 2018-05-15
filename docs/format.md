@@ -14,6 +14,6 @@ Please raise a [Pull-Request]() or [issue]() to contribute or discuss a registry
 
 |Value|Description|Issue|
 |---|---|---|
-{% for value in site.format %}| <a href="/registry/format/{{ value.slug }}.html">{{ value.slug }}</a> | {{ value.description }} | {{ value.issue }} |
+{% for value in site.format %}| <a href="/registries/format/{{ value.slug }}.html">{{ value.slug }}</a> | {{ value.description }} | {{ value.issue }} |
 {% endfor %}
 
