@@ -1,6 +1,5 @@
 ---
 layout: default
-#show_downloads: false
 title: OpenAPI Initiative Registry
 permalink: /format/index.html
 ---
