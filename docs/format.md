@@ -4,7 +4,7 @@ title: OpenAPI Initiative Registry
 permalink: /registries/format/index.html
 ---
 
-# OpenAPI Initiative Formats Registry
+# Formats Registry
 
 ## Contributing
 

@@ -4,7 +4,7 @@ title: OpenAPI Initiative Registry
 permalink: /registries/extension/index.html
 ---
 
-# OpenAPI Initiative Extensions Registry
+# Extensions Registry
 
 ## Contributing
 

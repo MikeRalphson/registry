@@ -3,7 +3,7 @@ layout: default
 permalink: /registries/draft-feature/index.html
 ---
 
-# OpenAPI Initiative Draft Feature Registry
+# Draft Features Registry
 
 ## Contributing
 

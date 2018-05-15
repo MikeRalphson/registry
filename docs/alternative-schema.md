@@ -3,7 +3,7 @@ layout: default
 permalink: /registries/alternative-schema/index.html
 ---
 
-# OpenAPI Initiative Alternative Schema Type Registry
+# Alternative Schema Type Registry
 
 ## Contributing
 
