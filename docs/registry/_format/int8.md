@@ -7,7 +7,7 @@ issue: 1400
 description: signed 8-bit integer
 
 layout: default
-theme: jekyll-theme-cayman
+theme: jekyll-theme-dinky
 show_downloads: false
 ---
 
