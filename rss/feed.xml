@@ -19,5 +19,6 @@ layout: none
         <guid isPermaLink="true">{{ value.url }}</guid>
       </item>
     {% endfor %}
+    {% endfor %}
   </channel>
 </rss>
