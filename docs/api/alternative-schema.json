@@ -1,4 +1,0 @@
----
----
-{{ site.alternative-schema | jsonify }}
-

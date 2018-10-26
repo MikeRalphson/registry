@@ -1,4 +1,0 @@
----
----
-{{ site.draft-feature | jsonify }}
-
