@@ -9,7 +9,7 @@ description: signed 8-bit integer
 layout: default
 ---
 
-# {{ site.collections.[page.collection].title }}
+# {{ page.collection }}
 
 ## {{ page.title }} - {{ page.description }}
 
