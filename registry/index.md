@@ -9,7 +9,7 @@ Please raise a [Pull-Request]() or [issue]() to contribute or discuss a registry
 
 ### Contents
 
-{% for registry in site.collections %}{% unless registry.hidden %}* <a href="/api/{{ registry.slug }}.json">{{ registry.slug }}.json</a> - {{ registry.name}} {% endunless %}
+{% for registry in site.collections %}{% unless registry.hidden %}* <a href="/registries/{{ registry.slug }}">{{ registry.name }}{% endunless %}
 {% endfor %}
 
 #### API access
