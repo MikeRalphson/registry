@@ -1,4 +1,4 @@
 ---
 ---
-{{ site.data.registries | jsonify }}
+{{ site.collections | jsonify }}
 

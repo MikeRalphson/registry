@@ -9,13 +9,13 @@ Please raise a [Pull-Request]() or [issue]() to contribute or discuss a registry
 
 ### Contents
 
-{% for registry in site.data.registries %}{% unless registry.hidden %}* <a href="/registries/{{ registry.slug }}/index.html">{{ registry.name }}</a>{% endunless %}
+{% for registry in site.collections %}{% unless registry.hidden %}* <a href="/api/{{ registry.slug }}.json">{{ registry.slug }}.json</a> - {{ registry.name}} {% endunless %}
 {% endfor %}
 
 #### API access
 
-{% for registry in site.data.registries %}{% unless registry.hidden %}* <a href="/api/{{ registry.slug }}.json">{{ registry.slug }}.json</a>{% endunless %}
-{% endfor %}* [registries.json](/api/registries.json)
+{% for registry in site.collections %}{% unless registry.hidden %}* <a href="/api/{{ registry.slug }}.json">{{ registry.slug }}.json</a>{% endunless %}
+{% endfor %}* [registries.json](/api/registries.json) - Registries meta-registry
 
 #### RSS feed
 

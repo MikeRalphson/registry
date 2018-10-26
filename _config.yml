@@ -7,6 +7,7 @@ collections:
   object:
     slug: object
     name: Object Registry
+    hidden: true
   format:
     slug: format
     name: Format Registry
