@@ -8,7 +8,9 @@ layout: none
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
     <atom:link href="{{ "/rss/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
-    {% for value in site.data.values %}
+    {% for reg in site.data.registries %}
+    {% for doc in reg.docs %}
+    {% assign value = doc | markdownify %}
       <item>
         <title>{{ value.name | xml_escape }}</title>
         <description>{{ value.description | xml_escape }}</description>
@@ -18,6 +20,7 @@ layout: none
         <guid isPermaLink="true">{{ value.url }}</guid>
 	<!-- {{ value | jsonify }} -->
       </item>
+    {% endfor %}
     {% endfor %}
   </channel>
 </rss>
