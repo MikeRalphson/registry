@@ -19,5 +19,5 @@ Please raise a [Pull-Request]() or [issue]() to contribute or discuss a registry
 
 #### RSS feed
 
-* [values.rss](/rss/feed.xml)
+* [feed.xml](/rss/feed.xml)
 
