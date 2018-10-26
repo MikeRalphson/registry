@@ -1,5 +1,7 @@
 # object registry (objects)
 
+# example of raw YAML data which is not rendered from separate .md files
+
 - slug: openapiObject
   registry: object
   name: openapi object
