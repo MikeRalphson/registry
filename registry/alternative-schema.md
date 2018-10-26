@@ -11,7 +11,7 @@ permalink: /registries/alternative-schema/index.html
 
 ## Contributing
 
-Please raise a [Pull-Request]() or [issue]() to contribute or discuss a registry value.
+Please raise a [Pull-Request](https://github.com/OAI/OpenAPI-Specification/pulls) or [Issue](https://github.com/OAI/OpenAPI-Specification/issues) to contribute or discuss a registry value.
 
 ## Values
 
