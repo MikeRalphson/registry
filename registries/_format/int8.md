@@ -9,19 +9,17 @@ description: signed 8-bit integer
 layout: default
 ---
 
-# {{ site.title }}
+# {{ page.collection }}
 
-## {{ page.collection }}
-
-### {{ page.title }} - {{ page.description }}
+## {{ page.title }} - {{ page.description }}
 
 The `{{page.slug}}` format represents a signed 8-bit integer, with the range -128 to 127
 
-#### GitHub Issue
+### GitHub Issue
 
 * [{{ page.issue }}](https://github.com/OAI/OpenAPI-Specification/issues/{{ page.issue }})
 
-#### Raw data
+### Raw data
 
 ```json
 {{ page || jsonify }}
