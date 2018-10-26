@@ -4,6 +4,8 @@ description: Extensible data value repository
 show_downloads: true
 collections_dir: /registries
 collections:
+  posts:
+    hidden: true
   object:
     slug: object
     name: Object Registry
