@@ -16,3 +16,9 @@ layout: default
 ### {{ page.slug }}
 
 The `{{page.slug}}` format represents a signed 8-bit integer, with the range -128 to 127
+
+#### Raw data
+
+```json
+{{ page || jsonify }}
+```
