@@ -17,7 +17,7 @@ The `{{page.slug}}` format represents a signed 8-bit integer, with the range -12
 
 ### GitHub Issue
 
-* [{{ page.issue }}](https://github.com/OAI/OpenAPI-Specification/issues/{{ page.issue }})
+* [#{{ page.issue }}](https://github.com/OAI/OpenAPI-Specification/issues/{{ page.issue }})
 
 ### Raw data
 
