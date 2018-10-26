@@ -9,4 +9,8 @@ description: signed 8-bit integer
 layout: default
 ---
 
-The `int8` format represents a signed 8-bit integer, with the range -128 to 127
+# {{ collection }}
+
+## {{ slug }}
+
+The `{{slug}}` format represents a signed 8-bit integer, with the range -128 to 127
