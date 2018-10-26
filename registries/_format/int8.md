@@ -9,8 +9,10 @@ description: signed 8-bit integer
 layout: default
 ---
 
-# {{ collection }}
+# {{ site.title }}
 
-## {{ slug }}
+## {{ page.collection }}
 
-The `{{slug}}` format represents a signed 8-bit integer, with the range -128 to 127
+### {{ page.slug }}
+
+The `{{page.slug}}` format represents a signed 8-bit integer, with the range -128 to 127
