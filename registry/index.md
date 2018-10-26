@@ -14,8 +14,8 @@ Please raise a [Pull-Request]() or [issue]() to contribute or discuss a registry
 
 #### API access
 
-{% for registry in site.data.registries %}{% unless registry.hidden %}* <a href="/registry/api/{{ registry.slug }}.json">{{ registry.slug }}.json</a>{% endunless %}
-{% endfor %}* [registries.json](/registry/api/registries.json)
+{% for registry in site.data.registries %}{% unless registry.hidden %}* <a href="/api/{{ registry.slug }}.json">{{ registry.slug }}.json</a>{% endunless %}
+{% endfor %}* [registries.json](/api/registries.json)
 
 #### RSS feed
 
