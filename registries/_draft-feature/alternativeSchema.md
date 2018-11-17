@@ -23,8 +23,8 @@ This object makes it possible to reference an external file that contains a sche
 
 ##### Fixed Fields
 
-Field Name | Type | Description
----|:---:|---
+| Field Name | Type | Description |
+|---|:---:|---|
 <a name="alternativeSchemaType"></a>type | `string` | **REQUIRED**. The value MUST match one of the values identified in the alternative Schema Registry name of the tag.
 <a name="alternativeSchemaExternalValue"></a>externalValue | `url` | **REQUIRED**.  This is a absolute or relative reference to an external file containing a schema of a known type.
 
