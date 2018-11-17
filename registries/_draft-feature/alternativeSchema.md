@@ -22,6 +22,7 @@ Field Name | Type | Description
 This object makes it possible to reference an external file that contains a schema that does not follow the OAS specification. 
 
 ##### Fixed Fields
+
 Field Name | Type | Description
 ---|:---:|---
 <a name="alternativeSchemaType"></a>type | `string` | **REQUIRED**. The value MUST match one of the values identified in the alternative Schema Registry name of the tag.
