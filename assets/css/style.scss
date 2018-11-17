@@ -18,3 +18,8 @@ header > ul > li:hover {
   background: #45512c;
 } 
 
+section:first-of-type {
+  background-image: url("../img/draft.png")
+  background-repeat: repeat;
+}
+
