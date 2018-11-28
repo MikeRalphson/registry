@@ -14,6 +14,14 @@ layout: default
 
 The `x-twitter` extension is used to hold a reference to the API provider's Twitter account. It can appear as a property of the `contact` object.
 
+### Schema
+
+```yaml
+{{schema}}
+```
+
+### Example
+
 ```yaml
 openapi: 3.0.0
 info:
@@ -23,7 +31,7 @@ info:
     x-twitter: APIs-guru
 ```
 
-Used by:
+Used by: (informational)
 
 * APIs.guru
 

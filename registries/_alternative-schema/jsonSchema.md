@@ -4,7 +4,6 @@ name: jsonSchema
 owner: darrel_miller
 issue: 1532
 description: JSON Schema
-
 layout: default
 ---
 

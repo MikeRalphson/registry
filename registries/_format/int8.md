@@ -5,7 +5,6 @@ title: int8
 owner: MikeRalphson
 issue: 845
 description: signed 8-bit integer
-
 layout: default
 ---
 
@@ -13,7 +12,9 @@ layout: default
 
 ## {{ page.title }} - {{ page.description }}
 
-The `{{page.slug}}` format represents a signed 8-bit integer, with the range -128 to 127
+Base type: `number`.
+
+The `{{page.slug}}` format represents a signed 8-bit integer, with the range -128 to 127.
 
 ### GitHub Issue
 

@@ -4,7 +4,6 @@ name: xmlSchema
 owner: darrel_miller
 issue: 1532
 description: xml Schema
-
 layout: default
 ---
 
