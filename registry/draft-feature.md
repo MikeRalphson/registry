@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /registries/draft-feature/index.html
+permalink: /registry/draft-feature/index.html
 ---
 
 # Draft Features Registry

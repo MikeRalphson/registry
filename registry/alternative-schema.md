@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /registries/alternative-schema/index.html
+permalink: /registry/alternative-schema/index.html
 ---
 
 # Alternative Schema Type Registry

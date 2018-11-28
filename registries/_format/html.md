@@ -4,7 +4,7 @@ description: HTML-formatted text
 layout: default
 ---
 
-# {{ page.collection }}
+# <a href="..">{{ page.collection }}</a>
 
 ## {{ page.slug }} - {{ page.description }}
 

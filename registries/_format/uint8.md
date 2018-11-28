@@ -5,7 +5,7 @@ description: unsigned 8-bit integer
 layout: default
 ---
 
-# {{ page.collection }}
+# <a href="..">{{ page.collection }}</a>
 
 ## {{ page.slug }} - {{ page.description }}
 

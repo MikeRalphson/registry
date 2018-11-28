@@ -1,7 +1,6 @@
 ---
 layout: default
-title: OpenAPI Initiative Registry
-permalink: /registries/format/index.html
+permalink: /registry/format/index.html
 ---
 
 # Formats Registry
