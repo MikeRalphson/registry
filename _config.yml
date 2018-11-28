@@ -14,15 +14,19 @@ collections:
     slug: format
     name: Format Registry
     output: true
+    permalink: /registry/:collection/:title
   extension:
     slug: extension
     name: Specification Extension Registry
     output: true
+    permalink: /registry/:collection/:title
   draft-feature:
     slug: draft-feature
     name: Draft Features Registry
     output: true
+    permalink: /registry/:collection/:title
   alternative-schema:
     slug: alternative-schema
     name: Alternative Schema Type Registry
     output: true
+    permalink: /registry/:collection/:title
