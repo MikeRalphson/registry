@@ -20,8 +20,3 @@ The `{{page.slug}}` format represents an unsigned 8-bit integer, with the range 
 
 * [#{{ page.issue }}](https://github.com/OAI/OpenAPI-Specification/issues/{{ page.issue }})
 
-### Raw data
-
-```yaml
-{{ page }}
-```

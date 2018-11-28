@@ -1,10 +1,7 @@
 ---
-slug: int8
-name: int8
-title: int8
 owner: MikeRalphson
-issue: 845
-description: signed 8-bit integer
+issue: ?
+description: commonmark-formatted text
 layout: default
 ---
 
@@ -12,9 +9,9 @@ layout: default
 
 ## {{ page.title }} - {{ page.description }}
 
-Base type: `number`.
+Base type: `string`.
 
-The `{{page.slug}}` format represents a signed 8-bit integer, with the range -128 to 127.
+The `{{page.slug}}` format represents [CommonMark](https://commonmark.org/) formatted text.
 
 ### GitHub Issue
 
