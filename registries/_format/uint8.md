@@ -1,7 +1,4 @@
 ---
-slug: uint8
-name: uint8
-title: uint8
 owner: MikeRalphson
 issue: 845
 description: unsigned 8-bit integer
@@ -10,7 +7,7 @@ layout: default
 
 # {{ page.collection }}
 
-## {{ page.title }} - {{ page.description }}
+## {{ page.slug }} - {{ page.description }}
 
 Base type: `number`.
 

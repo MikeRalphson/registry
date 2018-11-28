@@ -1,7 +1,4 @@
 ---
-slug: int8
-name: int8
-title: int8
 owner: MikeRalphson
 issue: 845
 description: signed 8-bit integer
@@ -10,7 +7,7 @@ layout: default
 
 # {{ page.collection }}
 
-## {{ page.title }} - {{ page.description }}
+## {{ page.slug }} - {{ page.description }}
 
 Base type: `number`.
 

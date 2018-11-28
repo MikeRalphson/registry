@@ -6,7 +6,7 @@ layout: default
 
 # {{ page.collection }}
 
-## {{ page.title }} - {{ page.description }}
+## {{ page.slug }} - {{ page.description }}
 
 Base type: `string`.
 

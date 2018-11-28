@@ -6,11 +6,11 @@ layout: default
 
 # {{ page.collection }}
 
-## {{ page.name }} - {{ page.description }}
+## {{ page.slug }} - {{ page.description }}
 
 Base type: `string`.
 
-The `{{page.name}}` format represents [CommonMark](https://commonmark.org/) formatted text.
+The `{{page.slug}}` format represents [CommonMark](https://commonmark.org/) formatted text.
 
 {% if page.issue %}
 ### GitHub Issue
