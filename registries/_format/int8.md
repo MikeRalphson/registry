@@ -16,7 +16,8 @@ Base type: `number`.
 
 The `{{page.slug}}` format represents a signed 8-bit integer, with the range -128 to 127.
 
+{% if page.issue %}
 ### GitHub Issue
 
 * [#{{ page.issue }}](https://github.com/OAI/OpenAPI-Specification/issues/{{ page.issue }})
-
+{% endif %}

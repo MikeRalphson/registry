@@ -1,7 +1,5 @@
 ---
-name: html
 owner: MikeRalphson
-issue: 0
 description: HTML-formatted text
 layout: default
 ---
@@ -14,7 +12,8 @@ Base type: `string`.
 
 The `{{page.slug}}` format represents HTML-formatted text.
 
+{% if page.issue %}
 ### GitHub Issue
 
 * [#{{ page.issue }}](https://github.com/OAI/OpenAPI-Specification/issues/{{ page.issue }})
-
+{% endif %}
