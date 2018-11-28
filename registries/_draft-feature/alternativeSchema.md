@@ -1,12 +1,14 @@
 ---
-slug: alternativeSchema
-name: alternativeSchema
 owner: darrel_miller
 issue: 1532
 description: x-oas-draft-alternativeSchema
 
 layout: default
 ---
+
+# {{ page.collection }}
+
+## {{ page.slug }} - {{ page.description }}
 
 #### <a name="mediaTypeObject"></a>Media Type Object
 
