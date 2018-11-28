@@ -9,7 +9,7 @@ Please raise a [Pull-Request](https://github.com/OAI/OpenAPI-Specification/pulls
 
 ### Contents
 
-{% for registry in site.collections %}{% unless registry.hidden %}* <a href="/registries/{{ registry.slug }}">{{ registry.name }}{% endunless %}
+{% for registry in site.collections %}{% unless registry.hidden %}* <a href="/registry/{{ registry.slug }}">{{ registry.name }}{% endunless %}
 {% endfor %}
 
 #### API access
