@@ -22,6 +22,6 @@ The `{{page.slug}}` format represents an unsigned 8-bit integer, with the range 
 
 ### Raw data
 
-```json
-{{ page || jsonify }}
+```yaml
+{{ page }}
 ```
