@@ -11,7 +11,11 @@ objects: [ "contactObject" ]
 layout: default
 ---
 
-The `x-twitter` extension is used to hold a reference to the API provider's Twitter account. It can appear as a property of following objects: `{{page.objects|jsonify}}`.
+# {{ page.collection }}
+
+## {{ page.slug }} - {{ page.description }}
+
+The `x-twitter` extension is used to hold a reference to the API provider's Twitter account. It can appear as a property in the following objects: `{{page.objects|jsonify}}`.
 
 ### Schema
 
