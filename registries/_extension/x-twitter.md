@@ -1,7 +1,6 @@
 ---
 slug: x-twitter
 name: x-twitter
-title: x-twitter
 owner: mike_ralphson
 issue:
 description: Used to hold a reference to the API provider's Twitter account.
@@ -12,12 +11,12 @@ objects: [ "contactObject" ]
 layout: default
 ---
 
-The `x-twitter` extension is used to hold a reference to the API provider's Twitter account. It can appear as a property of the `contact` object.
+The `x-twitter` extension is used to hold a reference to the API provider's Twitter account. It can appear as a property of following objects: `{{page.objects|jsonify}}`.
 
 ### Schema
 
 ```yaml
-{{schema}}
+{{page.schema}}
 ```
 
 ### Example
