@@ -1,6 +1,5 @@
 ---
 layout: default
-title: OpenAPI Initiative Registry - DRAFT CONTENT
 ---
 
 ## Contributing
