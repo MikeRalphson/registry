@@ -4,6 +4,7 @@ description: HTML Spec. and extensible registry
 permalink: /
 title: OpenAPI Initiative gh-pages
 site:
+  description: HTML Spec and Registry
   github:
     project_tagline: HTML Spec and Registry
 ---
