@@ -3,7 +3,9 @@ title: OpenAPI Initiative gh-pages repository
 description: HTML Spec. and extensible registry
 permalink: /
 title: OpenAPI Initiative gh-pages
-description: HTML Spec and Registry
+site:
+  github:
+    project_tagline: HTML Spec and Registry
 ---
 <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
 # OpenAPI Initiative Registry
