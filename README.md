@@ -3,6 +3,7 @@ title: OpenAPI Initiative gh-pages repository
 description: HTML Spec. and extensible registry
 permalink: /
 ---
+<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
 # OpenAPI Initiative Registry
 
 This site contains the OpenAPI Initiative Registry and content for the HTML versions of the OpenAPI Specification.
