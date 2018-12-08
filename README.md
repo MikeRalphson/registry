@@ -1,7 +1,6 @@
 ---
-site:
-  title: OpenAPI Initiative gh-pages repository
-  description: HTML Spec. and extensible registry
+title: OpenAPI Initiative gh-pages repository
+description: HTML Spec. and extensible registry
 ---
 # OpenAPI Initiative Registry
 
