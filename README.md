@@ -1,6 +1,7 @@
 ---
 title: OpenAPI Initiative gh-pages repository
 description: HTML Spec. and extensible registry
+permalink: /
 ---
 # OpenAPI Initiative Registry
 

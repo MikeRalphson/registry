@@ -1,5 +1,7 @@
 theme: jekyll-theme-dinky
 title: OpenAPI Initiative Registry - DRAFT CONTENT
+site:
+  url: https://spec.mermade.org.uk
 description: Extensible data value repository
 show_downloads: true
 collections_dir: /registries
